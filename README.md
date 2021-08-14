@@ -12,17 +12,27 @@
 - NYC TLC: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - NNYC Transit Subway Entrance And Exit Data: https://data.ny.gov/Transportation/NYC-Transit-Subway-Entrance-And-Exit-Data/i9wp-a4ja
 
+# HOW TO RUN THE CODE
+
+- Please run the download.ipynb file FIRST
+- This will install all neccesary datasets to run the code
+- AFTER running the download.ipynb, Please run notebooks in order, starting from Notebook 1, ending at Notebook 5
 
 # Directory
-_Change this to fit your needs when you have started the project._
-- `raw_data`: Contains all the raw data files. You may add this folder to `.gitignore` if your files are too large, but you **must** provide code to automatically download or links so that we may manually download them. 
-- `preprocessed data`: Contains all the preprocessed data files. You may add this folder to `.gitignore` if your files are too large, but your script should automaticaally generate files here given the correct dataset in `raw_data`.
-- `plots`: Output and save all your figures here.
-- `code`: Keep all notebooks and scripts in this folder. Ensure that you have notebooks for each _stage_ of code. Here's an example:
-    - Notebook 1 for "Extracting Data" and "Installing Packages".
-    - Notebook 2 for "Preprocessing" and/or "Exploratory Data Analysis".
-    - Notebook 3 for "Analysis and Visualisation".
-    - Notebook 4 for "Statistical Modelling".
+
+
+
+
+- `raw_data`: will be filled when running the download.ipynb file
+- `preprocessed data`: Contains all the preprocessed data files. Will be filled after running notebook 2.
+- `plots`: All plots containted here.
+- `code`: Contains all notbooks, should be run in the following order
+    - download.ipynb
+    - Notebook 1 External dataset
+    - Notebook 2 Preprocessing
+    - Notebook 3 Visualisation
+    - Notebook 4 Modelling
+    - Notebook 5 Results
 - `deprecated`: A folder to store "old code" that **you do not use anymore** or code that you experimented with, but decided to not go ahead. This is useful in case you ever need to come back to an older iteration of code or to express your other approaches to the problem.
 
 # Other
